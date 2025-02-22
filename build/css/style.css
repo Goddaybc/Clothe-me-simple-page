@@ -1055,6 +1055,11 @@
       width: 400px;
     }
   }
+  .sm\:w-\[450px\] {
+    @media (width >= 40rem) {
+      width: 450px;
+    }
+  }
   .sm\:max-w-1\/2 {
     @media (width >= 40rem) {
       max-width: calc(1/2 * 100%);
